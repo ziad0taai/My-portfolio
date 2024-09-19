@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziad</title>
+    <style>
+        body{
+            background: linear-gradient(to bottom, #0ddf8b, #af052d, #b9195e);
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Josefin Sans',sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            width: 80%;
+        }
+        nav ul li{
+            display: inline-block;
+            padding: 50px 32px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: wheat;
+            font-weight: bold;
+            list-style: none;
+            transition: 0.5s;
+        }
+        nav ul li a:hover{
+            color: red;
+        }
+        .logo{
+            color: wheat;
+            font-size: 35px;
+        }
+        span{
+            color: #f9004d;
+        }.btn-sub{
+            background-color:#f9004d ;
+            color: white;
+            padding: 7px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        .btn-sub{
+            transform:scale(1.1) ;
+        }
+        .content{
+            margin-left: 8%;
+            margin-top: 12%;
+        }
+        .content .img img{
+            width: 435px;
+            border-radius: 5000px;
+        }
+        .content .text{
+            width: 100%;
+            line-height: 64px;
+            color: wheat;
+        }.content .text h4{
+            font-size: 23px;
+            color: wheat;
+            letter-spacing: 2px;
+        }.content .text h1{
+            font-size: 75px;
+            letter-spacing: 1px;
+        }.content .text h3{
+            font-size: 25px;
+            letter-spacing: 2px;
+        }.CV{
+            text-decoration: none;
+            color: white;
+            background-color: #f9004d;
+            padding: 7px 0px;
+            border-radius: 30%;
+            box-shadow: 0px 0px 5px #0000 0px 0px 8px #858585;
+            transition: 0.5s;
+        }.CV:hover{
+            background-color: transparent;
+            outline: none;
+            border: #f9004d 2px solid;
+        }.content .img{
+            width: 45%;
+            height: 80%;
+            position: absolute;
+            bottom: 0px;
+            right: 50px;
+        }.face-logo{
+            width: 40px;
+        }.instalogo{
+            width: 40px;
+        }.linke-logo{
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+                <h2 class="logo">Ziad Taaimira<span>website</span></h2>
+            <nav>
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+                <a href="#" class="btn-sub">Subscribe</a>
+            </nav>
+            <div class="content">
+                <div class="text">
+                    <h4>hi, my name is</h4>
+                    <h1>ZIAD<span>Taaimira</span> </h1>
+                    <h3>I am a web develloper.</h3>
+                    <a href="#" class="CV">DOWNLOAD CV</a>
+                    <br>
+                    <div class="logo">
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr" class="face-logo"><img src="image facebook logo.jpeg" ></a>
+                    <a href="https://www.instagram.com/" class="insta-logo"><img src="image instagram logo.jpeg" ></a>
+                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" class="linke-logo"><img src="linkedin round logo.png" ></a>
+                </div>
+
+                </div>
+                <div class="img"><img src="img.png"></div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
